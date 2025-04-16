@@ -25,9 +25,22 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased m-3`}
       >
+       <div className="grid grid-cols-12 gap-4">
+        {/* left */}
+        <div className="col-span-1 border border-red-700 h-screen">
+
+        </div>
+         {/*middle  */}
+         <div className="col-span-8 border border-red-700 h-screen">
         {children}
+        </div>
+        {/* right */}
+        <div className="col-span-3 border border-red-700 h-screen">
+
+        </div>
+        </div>
       </body>
     </html>
   );

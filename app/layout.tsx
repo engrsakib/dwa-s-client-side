@@ -30,7 +30,7 @@ export default function RootLayout({
       >
        <div className="grid grid-cols-12 gap-4">
         {/* left */}
-        <div className="col-span-1 border border-red-700 h-screen">
+        <div className="col-span-1 mx-auto h-screen">
           <LeftSide></LeftSide>
         </div>
          {/*middle  */}

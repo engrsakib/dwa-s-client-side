@@ -39,7 +39,7 @@ export default function RootLayout({
         {children}
         </div>
         {/* right */}
-        <div className="col-span-3 h-screen">
+        <div className="col-span-3 mx-auto h-screen">
         <RightSide></RightSide>
         </div>
         </div>

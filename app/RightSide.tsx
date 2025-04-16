@@ -35,8 +35,67 @@ export default function RightSide() {
           </ul>
         </div>
       </div>
-    {/* Right menue here */}
+      {/* Right menue here */}
 
+      <div className="flex flex-col items-center w-96 h-screen bg-gray-50 rounded-2xl shadow-xl p-2.5">
+        {/* text */}
+        <div>
+          <h2 className="text-2xl text-black mt-5 font-bold">Settings</h2>
+        </div>
+        {/* menue */}
+        <div className="flex bg-gray-100 shadow p-4 w-80 items-center gap-4 mt-5">
+          <div className="rounded-full shadow border-gray-50">
+            <Image
+              src="/Vector.png"
+              width={50}
+              height={50}
+              className="rounded-full"
+              alt="sakib"
+            />
+          </div>
+            <h2 className="text-xl text-gray-600">Language Settings</h2>
+        </div>
+
+        <div className="flex bg-gray-100 shadow p-4 w-80 items-center gap-4 mt-5">
+          <div className="rounded-full shadow border-gray-50">
+            <Image
+              src="/Frame.png"
+              width={50}
+              height={50}
+              className="rounded-full"
+              alt="sakib"
+            />
+          </div>
+            <h2 className="text-xl text-gray-600">General Settings</h2>
+        </div>
+
+        <div className="flex bg-gray-100 shadow p-4 w-80 items-center gap-4 mt-5">
+          <div className="rounded-full shadow border-gray-50">
+            <Image
+              src="/54-menu-2 (1).png"
+              width={50}
+              height={50}
+              className="rounded-full"
+              alt="sakib"
+            />
+          </div>
+            <h2 className="text-xl text-gray-600">Font Settings</h2>
+        </div>
+
+        <div className="flex bg-gray-100 shadow p-4 w-80 items-center gap-4 mt-5">
+          <div className="rounded-full shadow border-gray-50">
+            <Image
+              src="/54-menu-2.png"
+              width={50}
+              height={50}
+              className="rounded-full"
+              alt="sakib"
+            />
+          </div>
+            <h2 className="text-xl text-green-600">Appearance Settings</h2>
+        </div>
+        
+      </div>
     </div>
   );
 }

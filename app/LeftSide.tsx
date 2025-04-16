@@ -13,8 +13,40 @@ export default function LeftSide() {
       />
       </div>
       {/* middle items */}
-      <div>
-        
+      <div className='flex flex-col items-center justify-between gap-4'>
+      <div className='bg-[#E8F0F5] p-4 rounded-full'>
+      <Image 
+      src="/Group 1.png"
+      width={50}
+      height={50}
+      alt="leftside"
+      />
+      </div>
+      <div className='bg-[#E8F0F5] p-4 rounded-full'>
+      <Image 
+      src="/Group 2.png"
+      width={50}
+      height={50}
+      alt="leftside"
+      />
+      </div>
+      <div className='bg-[#E8F0F5] p-4 rounded-full'>
+      <Image 
+      src="/Group 3.png"
+      width={50}
+      height={50}
+      alt="leftside"
+      />
+      </div>
+      <div className='bg-[#E8F0F5] p-4 rounded-full'>
+      <Image 
+      src="/Group 4.png"
+      width={50}
+      height={50}
+      alt="leftside"
+      />
+      </div>
+
       </div>
       {/* last items */}
       <div>

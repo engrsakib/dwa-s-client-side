@@ -2,7 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 export default function LeftSide() {
   return (
-    <div className='flex bg-gray-50 shadow-xl w-24 p-2.5 flex-col items-center justify-between h-screen'>
+    <div className='flex bg-gray-50 rounded-2xl shadow-xl w-24 p-2.5 flex-col items-center justify-between h-screen'>
       {/* image */}
       <div>
       <Image 

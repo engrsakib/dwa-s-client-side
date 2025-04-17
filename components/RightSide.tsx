@@ -1,7 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import sakib from "@/public/Md Nazmus Sakib pasport size.jpg";
+
+
 export default function RightSide() {
+    
   return (
     <div>
       {/* user icons */}

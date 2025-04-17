@@ -2,12 +2,14 @@ import React from "react";
 
 export default function TopSide() {
   return (
-    <div className="flex rounded-2xl w-full h-32 flex-col items-center justify-between">
+    <div className="flex rounded-2xl w-full h-auto items-center justify-between">
       {/* logo */}
-      <div></div>
+      <div>
+        <h1 className="text-2xl text-[#393939]">Dua Page</h1>
+      </div>
       {/* search */}
       <div>
-        <label className="input absolute">
+        <label className="input">
           <svg
             className="h-[1em] opacity-50"
             xmlns="http://www.w3.org/2000/svg"

@@ -94,6 +94,13 @@ export default function RightSide() {
           </div>
             <h2 className="text-xl text-green-600">Appearance Settings</h2>
         </div>
+
+        <div className="flex bg-gray-100 p-4 w-80 items-center justify-between gap-4 mt-5">
+          <div>
+          <h2 className="text-xl text-gray-600">Appearance Settings</h2>
+          </div>
+          <input type="checkbox" defaultChecked className="toggle" />
+        </div>
         
       </div>
     </div>

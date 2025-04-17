@@ -5,13 +5,6 @@ import LeftSide from "@/components/LeftSide";
 import RightSide from "@/components/RightSide";
 import TopSide from "@/components/TopSide";
 
-
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
 const inter = Inter({
   variable: "--font-inter",
   subsets: ["latin"],
@@ -36,7 +29,7 @@ export default function RootLayout({
   return (
     <html lang="en" data-theme="light">
       <body
-        className={`${inter.variable} ${geistMono.variable} antialiased m-3`}
+        className={`${inter.variable} ${poppins.variable} antialiased m-3`}
       >
        <div className="grid grid-cols-12 gap-4">
         {/* left */}
@@ -44,7 +37,7 @@ export default function RootLayout({
           <LeftSide></LeftSide>
         </div>
          {/*middle  */}
-         <div className="col-span-8 border border-red-700 h-screen">
+         <div className="col-span-8 h-screen">
           {/* topSide */}
           <div>
             <TopSide></TopSide>

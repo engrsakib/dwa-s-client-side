@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import LeftSide from "./LeftSide";
 import RightSide from "./RightSide";
+import TopSide from "./TopSide";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -36,6 +37,10 @@ export default function RootLayout({
         </div>
          {/*middle  */}
          <div className="col-span-8 border border-red-700 h-screen">
+          {/* topSide */}
+          <div>
+            <TopSide></TopSide>
+          </div>
         {children}
         </div>
         {/* right */}

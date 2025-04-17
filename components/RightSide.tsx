@@ -4,6 +4,7 @@ import sakib from "@/public/Md Nazmus Sakib pasport size.jpg";
 import { IoLanguageSharp } from "react-icons/io5";
 import { TbSandbox } from "react-icons/tb";
 import { PiShieldCheckered } from "react-icons/pi";
+import { RxDashboard } from "react-icons/rx";
 
 
 export default function RightSide() {
@@ -65,14 +66,14 @@ export default function RightSide() {
 
         <div className="flex bg-gray-100 shadow p-4 w-80 items-center gap-4 mt-5">
           <div className="rounded-full shadow border-gray-50">
-          <PiShieldCheckered className="text-2xl text-[#868686]"  />
+          <RxDashboard className="text-2xl text-[#868686]"/>
           </div>
             <h2 className="text-xl text-gray-600">Font Settings</h2>
         </div>
 
         <div className="flex bg-gray-100 shadow p-4 w-80 items-center gap-4 mt-5">
           <div className="rounded-full shadow border-gray-50">
-          <PiShieldCheckered className="text-2xl text-[#1FA45B]"  />
+          <RxDashboard className="text-2xl text-[#1FA45B]" />
           </div>
             <h2 className="text-xl text-[#1FA45B]">Appearance Settings</h2>
         </div>

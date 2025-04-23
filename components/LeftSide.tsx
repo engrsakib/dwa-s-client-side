@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import { CiBookmark, CiHome } from "react-icons/ci";
 import { IoBookOutline, IoChatbubblesOutline } from "react-icons/io5";
@@ -13,12 +14,16 @@ export default function LeftSide() {
       </div>
       {/* middle items */}
       <div className="flex flex-col items-center justify-between gap-4">
+        <Link href="/">
         <div className="bg-[#E8F0F5] p-4 rounded-full">
           <CiHome className="text-2xl text-[#868686]" />
         </div>
+        </Link>
+        <Link href="/dwa">
         <div className="bg-[#E8F0F5] p-4 rounded-full">
           <RxDashboard className="text-2xl text-[#868686]" />
         </div>
+        </Link>
         <div className="bg-[#E8F0F5] p-4 rounded-full">
           <RiLightbulbFlashLine className="text-2xl text-[#868686]" />
         </div>

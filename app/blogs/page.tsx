@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 export default function page() {
@@ -32,7 +33,7 @@ export default function page() {
       {
         blogs.map((blog) => (
           <div key={blog.id} className="border p-4 mb-4 rounded-md shadow-md">
-            <h2 className="text-xl font-bold">{blog.title}</h2>
+            <Link href={`blogs/${blog.id}`}><h2 className="text-xl font-bold">{blog.title}</h2></Link>
 
           </div>
         ))
